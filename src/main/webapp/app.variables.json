@@ -1465,5 +1465,13 @@
 		"dataBinding": {},
 		"category": "wm.NavigationVariable",
 		"_id": "wm-goToPage-AnotherPage-wm.NavigationVariable-1440765243195"
+	},
+	"goToPage-PageWithForm": {
+		"owner": "App",
+		"operation": "gotoPage",
+		"pageName": "PageWithForm",
+		"dataBinding": {},
+		"category": "wm.NavigationVariable",
+		"_id": "wm-goToPage-PageWithForm-wm.NavigationVariable-1440770539735"
 	}
 }
