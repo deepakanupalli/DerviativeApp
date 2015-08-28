@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd" xmlns="http://www.springframework.org/schema/beans" xmlns:security="http://www.springframework.org/schema/security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <bean class="com.wavemaker.runtime.service.TypeManager" parent="typeManagerBase" scope="singleton" id="typeManager">
+        <property name="types">
+            <map merge="true">
+                <entry key="googleapis">
+                    <list>
+                        <value>googleapis.geocoded_waypointEntryItem</value>
+                        <value>googleapis.overview_polyline</value>
+                        <value>googleapis.route</value>
+                        <value>googleapis.northeast</value>
+                        <value>googleapis.start_location</value>
+                        <value>googleapis.DirectionsResponse</value>
+                        <value>googleapis.end_location</value>
+                        <value>googleapis.bounds</value>
+                        <value>googleapis.leg</value>
+                        <value>googleapis.polyline</value>
+                        <value>googleapis.southwest</value>
+                        <value>googleapis.duration</value>
+                        <value>googleapis.stepEntryItem</value>
+                        <value>googleapis.distance</value>
+                    </list>
+                </entry>
+                <entry key="hrdb">
+                    <list>
+                        <value>com.hrdb.Employee</value>
+                        <value>com.hrdb.Vacation</value>
+                        <value>com.hrdb.Department</value>
+                        <value>com.hrdb.User</value>
+                    </list>
+                </entry>
+            </map>
+        </property>
+    </bean>
+</beans>

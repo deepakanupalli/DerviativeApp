@@ -1,0 +1,19 @@
+{
+	"methods": [{
+		"operationType": null,
+		"name": "invoke",
+		"parameters": [{
+			"name": "sensor",
+			"type": "java.lang.String"
+		}, {
+			"name": "origin",
+			"type": "java.lang.String"
+		}, {
+			"name": "destination",
+			"type": "java.lang.String"
+		}],
+		"returnType": "googleapis.DirectionsResponse"
+	}],
+	"serviceURL": "googleapis.json",
+	"serviceType": "JSON-RPC"
+}
